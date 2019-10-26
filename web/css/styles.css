@@ -640,14 +640,21 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .navbar-brand.logo-image img {
-    width: 7.4375rem;
-	height: 2rem;
+    /*width: 7.4375rem;*/
+	height: 2.5rem;
 }
 
 .navbar-custom .navbar-brand.logo-text {
 	font: 600 2rem/1.5rem "Raleway", sans-serif;
 	color: #393939;
 	text-decoration: none;
+}
+
+.logo-text{
+	font: 600 1.5rem/1rem "Raleway", sans-serif;
+
+	color: black;
+    text-decoration: none;
 }
 
 .navbar-custom .navbar-nav {
