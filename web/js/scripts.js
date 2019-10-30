@@ -156,7 +156,7 @@
     });
 
 
-    /* Request Form */
+    /* Request Form 
     $("#requestForm").validator().on("submit", function(event) {
     	if (event.isDefaultPrevented()) {
             // handle the invalid form...
@@ -165,11 +165,11 @@
         } else {
             // everything looks good!
             event.preventDefault();
-            rsubmitForm();
+           // rsubmitForm();
         }
     });
-
-    function rsubmitForm() {
+*/
+    /*function rsubmitForm() {
         // initiate variables with form content
 		var name = $("#rname").val();
 		var email = $("#remail").val();
@@ -179,7 +179,7 @@
         
         $.ajax({
             type: "POST",
-            url: "php/requestform-process.php",
+            url: "https://gmail.us20.list-manage.com/subscribe/post?u=c56a4bd79b9b96129e152c28f&amp;id=7fb33a511b",
             data: "name=" + name + "&email=" + email + "&phone=" + phone + "&select=" + select + "&terms=" + terms, 
             success: function(text) {
                 if (text == "success") {
@@ -190,7 +190,7 @@
                 }
             }
         });
-	}
+	}*/
 
     function rformSuccess() {
         $("#requestForm")[0].reset();
